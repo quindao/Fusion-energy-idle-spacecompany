@@ -276,7 +276,7 @@ function destroyMachine(id){
 }
 
 function updateCost(){
-	PSUSilverCost = Math.floor(770000 * Math.pow(1.1,PSU));
+	PSUSilverCost = Math.floor(PSUSilverCostBase * Math.pow(1.1,PSU));
 	PSUGoldCost = Math.floor(770000 * Math.pow(1.1,PSU));
 	PSUUraniumCost = Math.floor(550000 * Math.pow(1.1,PSU));
 
