@@ -367,7 +367,7 @@ function updateCost(){
 	oilRigTitaniumCost = Math.floor(16800 * Math.pow(1.1,oilRig));
 	oilRigLunariteCost = Math.floor(19400 * Math.pow(1.1,oilRig));
 
-	minerWoodCost = Math.floor(5 * Math.pow(1.1,miner) * T1Price);
+	minerWoodCost = Math.floor(minerWoodCostBase * Math.pow(1.1,miner) * T1Price);
 	minerMetalCost = Math.floor(10 * Math.pow(1.1,miner) * T1Price);
 
 	heavyDrillOilCost = Math.floor(50 * Math.pow(1.1,heavyDrill));
